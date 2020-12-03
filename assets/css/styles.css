@@ -18,6 +18,7 @@ h1{
     z-index:1;   
     width: 100vh;
     height: 75vh;
+    margin: 0 25%
 }
     
 .cycler{
@@ -31,9 +32,9 @@ h1{
 }
  
 .cycler img.active{
-    z-index:3;
-       
+    z-index:3;       
 }
+
 
 
 
