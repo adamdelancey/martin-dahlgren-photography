@@ -20,6 +20,15 @@ h1{
     height: 75vh;
     margin: 0 25%
 }
+
+@media only screen and (max-width: 800px) {
+  .cycler img{       
+    width: 55vh;
+    height: 55vh;
+    object-fit: contain;
+    margin: 0
+  }
+}
     
 .cycler{
     position:relative;  
@@ -34,6 +43,7 @@ h1{
 .cycler img.active{
     z-index:3;       
 }
+
 
 
 
