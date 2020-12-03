@@ -1,49 +1,40 @@
 body{
-    background-color: black;
+    background-color: white;
     margin: 0;
     padding: 0;
     border: 0
 }
 
 h1{
-    color: white;
+    color: black;
     text-align: center;
     padding-top: 50px;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
     font-family: 'Homemade Apple', cursive;
 }
 
-#cycler img{
+.cycler img{
     position:absolute;
     z-index:1;   
     width: 100vh;
     height: 75vh;
 }
     
-#cycler{
+.cycler{
     position:relative;  
       
 }
+
+.player{
+    text-align: center;
+
+}
  
-#cycler img.active{
+.cycler img.active{
     z-index:3;
        
 }
 
-@media only screen and (min-width:1600px) {    
-    #cycler img{
-        margin-left: 25%
-    }    
-}
 
-@media only screen and (min-width:1300px) and (max-width:1599px) {    
-    #cycler img{
-        margin-left: 20%
-    }    
-}
 
-@media only screen and (min-width:1000px) and (max-width:1299px) {    
-    #cycler img{
-        margin-left: 20%
-    }    
-}
+
