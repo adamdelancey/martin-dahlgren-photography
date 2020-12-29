@@ -5,12 +5,17 @@ body{
     border: 0
 }
 
+@font-face {
+   font-family: myFirstFont;
+   src: url(the-artisan.otf);
+}
+
 h1{
     color: black;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
-    font-family: 'Homemade Apple', cursive;
+    font-family: myFirstFont
 }
 
 .cycler img{
