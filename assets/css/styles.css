@@ -7,7 +7,7 @@ body{
 
 @font-face {
    font-family: myFirstFont;
-   src: url(the-artisan.otf);
+   src: url('the-artisan.otf');
 }
 
 h1{
